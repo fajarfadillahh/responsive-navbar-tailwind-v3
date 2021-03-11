@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./dist/css/tailwind.css" />
+  </head>
+  <body>
+    <nav class="flex items-center bg-gray-300 p-4 flex-wrap">
+      <!-- START: Navbar Logo -->
+      <a href="#" class="p-2 mr-4 inline-flex items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          class="fill-current text-black w-8 h-8 mr-2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+          />
+        </svg>
+
+        <span class="text-xl font-semibold">Fajar Fadillah</span>
+      </a>
+      <!-- END: Navbar Logo -->
+
+      <!-- START: Navbar Menu -->
+      <button
+        class="nav-toggle p-2 inline-flex hover:bg-gray-400 rounded focus:outline-none md:hidden ml-auto"
+        data-target="#navigation"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          class="fill-current text-black w-8 h-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </button>
+      <!-- END: Navbar Menu -->
+
+      <!-- START: Navbar List -->
+      <div
+        class="top-nav w-full hidden mt-4 md:w-auto md:inline-flex md:mt-0 md:flex-grow"
+        id="navigation"
+      >
+        <div class="flex flex-col ml-0 md:inline-flex md:flex-row md:ml-auto">
+          <a
+            href="#"
+            class="md:inline-flex md:w-auto px-3 py-2 rounded mb-3 md:mb-0 hover:bg-gray-400"
+          >
+            <span>Home</span>
+          </a>
+          <a
+            href="#"
+            class="md:inline-flex md:w-auto px-3 py-2 rounded mb-3 md:mb-0 hover:bg-gray-400"
+          >
+            <span>About</span>
+          </a>
+          <a
+            href="#"
+            class="md:inline-flex md:w-auto px-3 py-2 rounded mb-3 md:mb-0 hover:bg-gray-400"
+          >
+            <span>Portfolio</span>
+          </a>
+          <a
+            href="#"
+            class="md:inline-flex md:w-auto px-3 py-2 rounded mb-3 md:mb-0 hover:bg-gray-400"
+          >
+            <span>Partnership</span>
+          </a>
+          <a
+            href="#"
+            class="md:inline-flex md:w-auto px-3 py-2 rounded mb-3 md:mb-0 hover:bg-gray-400"
+          >
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      <!-- END: Navbar List -->
+    </nav>
+
+    <!-- Jquery -->
+    <script src="./src/js/jquery-3.4.1.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
